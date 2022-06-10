@@ -1,0 +1,17 @@
+.pai {
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.filho {
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}

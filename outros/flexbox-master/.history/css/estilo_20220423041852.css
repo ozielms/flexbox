@@ -1,0 +1,25 @@
+.pai {
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+}
+
+.filho {
+    background-color: brown;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.filho1 {
+    order: 2;
+}
+
+.filho2 {
+    order: 0;
+}
+
+.filho3 {
+    order: 1;
+}

@@ -1,0 +1,99 @@
+.titulo {
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 1px solid red;
+}
+
+.titulo-flex {
+    display: flex;
+    border-bottom: 1px solid red;
+}
+
+.titulo-colunm-reverse {
+    margin-left: auto;
+}
+
+
+/* -------- FLEXBOX -------- */
+
+.pai {
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.filho {
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+
+/* -------- FLEXBOX - FLEX CONTAINER -------- */
+
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+
+/* -------- FLEXBOX - FLEX ROW -------- */
+
+.row {
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+.row-reverse {
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-direction: row-reverse;
+}
+
+.row-reverse li {
+    background-color: red;
+}
+
+
+/* -------- FLEXBOX - FLEX COLUNM -------- */
+
+.colunm {
+    float: left;
+    flex-direction: column;
+}
+
+.colunm li {
+    background-color: orange;
+}
+
+.colunm-reverse {
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.colunm-reverse li {
+    background-color: purple;
+}
+
+
+/* -------- FLEXBOX - FLEX WRAP -------- */

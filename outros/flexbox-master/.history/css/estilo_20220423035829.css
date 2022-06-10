@@ -1,0 +1,29 @@
+.pai {
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filho1 {
+    background-color: brown;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.filho2 {
+    width: 20%;
+    height: 99%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.filho3 {
+    width: 20%;
+    height: 99%;
+    background-color: brown;
+    border: 1px solid black;
+}

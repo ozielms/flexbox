@@ -1,0 +1,48 @@
+.pai {
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.filho {
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    align-self: flex-start;
+    flex-direction: row-reverse;
+}
+
+.row-reverse li {
+    background-color: red;
+}
